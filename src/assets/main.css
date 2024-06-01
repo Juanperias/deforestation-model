@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  @apply grid max-h-screen justify-center items-center bg-slate-800;
+}
